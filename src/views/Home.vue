@@ -26,6 +26,6 @@
 	@Component
 	export default class Home extends Vue {
 		@State( 'layouts', { namespace } )
-		public layouts: Array<Layout> = []
+		public layouts: Array<Layout>
 	}
 </script>

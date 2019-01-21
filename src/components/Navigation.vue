@@ -18,7 +18,7 @@
 	@Component
 	export default class Navigation extends Vue {
 		@State( 'layouts', { namespace } )
-		public layouts: Array<Layout> = []
+		public layouts: Array<Layout>
 
 		@Prop()
 		public drawer: boolean = false
